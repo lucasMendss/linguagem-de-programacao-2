@@ -1,4 +1,4 @@
-package com.lucasmendss;
+package com.lucasmendss.exercise1;
 
 public class Author {
 
@@ -30,6 +30,6 @@ public class Author {
 
     @Override
     public String toString(){
-        return String.format("Author[name=%s, email=%s, gender=%c]", this.name, this.email, this.gender);
+        return String.format("Author[name=%s,email=%s,gender=%c]", this.name, this.email, this.gender);
     }
 }

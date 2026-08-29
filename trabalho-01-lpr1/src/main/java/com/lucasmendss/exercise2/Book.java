@@ -1,4 +1,6 @@
-package com.lucasmendss;
+package com.lucasmendss.exercise2;
+
+import com.lucasmendss.exercise1.Author;
 
 public class Book {
 
