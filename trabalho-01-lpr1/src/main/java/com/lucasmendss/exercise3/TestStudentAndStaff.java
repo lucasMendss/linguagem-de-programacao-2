@@ -1,3 +1,12 @@
+/*
+IFSP CBT 2026 - ADS 471 - LPR2 Java - Trabalho Prático 01
+Professor Wellington Tuler Moraes
+
+Dupla:
+Aluno: Felipe Barretto
+Aluno: Lucas Rafael
+*/
+
 package com.lucasmendss.exercise3;
 
 public class TestStudentAndStaff {
