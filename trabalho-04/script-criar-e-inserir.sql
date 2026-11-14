@@ -22,16 +22,16 @@ INSERT INTO tbcargos (cd_cargo, ds_cargo) VALUES (3, 'Estagiário Analista');
 INSERT INTO tbcargos (cd_cargo, ds_cargo) VALUES (4, 'Analista');
 GO
 
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1001, 'Ana Paula Souza',      1800.00, 1);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1002, 'Bruno Henrique Lima',  1800.00, 1);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1003, 'Carla Mendes',         6500.00, 2);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1004, 'Daniel Ferreira',      7200.00, 2);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1005, 'Eduarda Nascimento',   1700.00, 3);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1006, 'Felipe Araújo',        1700.00, 3);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1007, 'Gabriela Rocha',       8500.00, 4);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1008, 'Henrique Costa',       8900.00, 4);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1009, 'Isabela Martins',      6800.00, 2);
-INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1010, 'João Pedro Alves',     9200.00, 4);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1001, 'Ana',      1800.00, 1);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1002, 'Bruno',  1800.00, 1);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1003, 'Carla',         6500.00, 2);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1004, 'Daniel',      7200.00, 2);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1005, 'Eduarda',   1700.00, 3);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1006, 'Felipe',        1700.00, 3);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1007, 'Gabriela',       8500.00, 4);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1008, 'Henrique',       8900.00, 4);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1009, 'Isabela',      6800.00, 2);
+INSERT INTO tbfuncs (cod_func, nome_func, sal_func, cod_cargo) VALUES (1010, 'João',     9200.00, 4);
 GO
 
 SELECT f.cod_func, f.nome_func, f.sal_func, c.ds_cargo
